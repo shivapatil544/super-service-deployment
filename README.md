@@ -16,7 +16,7 @@ Ensure you have the following installed:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/super-service-deployment.git
+    git clone https://github.com/shivapatil544/super-service-deployment.git
     cd super-service-deployment
     ```
 
@@ -37,4 +37,5 @@ The script pushes the Docker image to AWS ECR. Ensure that you have an ECR repos
 
 ```bash
 aws ecr create-repository --repository-name your-ecr-repo-name --region your-region
+# super-service-deployment
 # super-service-deployment
